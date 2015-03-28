@@ -1,0 +1,13 @@
+<ATMega1284p_Datasheet>
+	<Attributes>
+		<Url></Url>
+		<Image></Image>
+		<File>atmega1284p.pdf</File>
+	</Attributes>
+	<Events>
+		<OnLeftClick></OnLeftClick>
+		<OnRightClick></OnRightClick>
+		<OnDblClick>OpenFile</OnDblClick>
+		<OnMouseOver></OnMouseOver>
+	</Events>
+</ATMega1284p_Datasheet>

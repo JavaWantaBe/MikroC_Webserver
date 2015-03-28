@@ -1,0 +1,33 @@
+/*
+   New Perspectives on JavaScript, 2nd Edition
+   Tutorial 5
+   Case Problem 4
+   Filename: ww.css
+   Author: Roger Blaine
+   Date:   3/1/2012
+
+   This file contains styles used in the works.htm file.
+
+*/
+
+*                  {margin: 0px; padding: 0px; line-height: 2}
+body               {background: white url(back.jpg) top left repeat-y}
+page               {width: 800px}
+
+#head              {text-align: left; margin-bottom: 10px; padding-bottom: 5px}
+#links             {float: left; width: 150px; padding-left: 10px;
+                    list-style-type: none}
+#links a           {display: block; width: 100%; text-decoration: none;
+                    color: white}
+#links a:hover     {text-decoration: underline}
+
+#webform           {float: left; width: 590px}
+
+fieldset           {margin: 10px; padding: 5px; width: 500px}
+
+label              {width: 200px; display: block; float: left}
+textarea           {line-height: 1}
+#total             {background-color: rgb(232, 232, 232); color: green; text-align: right}
+
+#cmonth, #cyear    {width: 60px; text-align: center}
+#sbutton           {margin: 20px 0px 0px 200px}

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- 
+   New Perspectives on JavaScript, 2nd Edition
+   Tutorial 5
+   Case Problem 4
+
+   Wizard Works Order Form
+   Author: Roger Blaine
+   Date:   3/1/2012
+
+   Filename:         works.htm
+   Supporting files: 
+-->
+
+   <title>Wizard Works Order Form</title>
+   <link href="ww.css" rel="stylesheet" type="text/css" />
+   <script type="text/javascript" src="function.js"></script>
+   <script type="text/javascript" src="valid.js"></script>
+
+</head>
+
+<body>
+   <form id="order" method="post" action="done.htm">
+   <div id="page">
+
+      <div id="head">
+         <img src="logo.jpg" alt="Wizard Works" />
+      </div>
+
+      <ul id="links">
+         <li><a href="#">Home</a></li>
+         <li><a href="#">Assortments</a></li>
+         <li><a href="#">Firecrackers</a></li>
+         <li><a href="#">Fontains</a></li>
+         <li><a href="#">Cones</a></li>
+         <li><a href="#">Rockets</a></li>
+         <li><a href="#">Sparklers</a></li>
+         <li><a href="#">Online Store</a></li>
+         <li><a href="#">Shopping Cart</a></li>
+         <li><a href="#">Your Account</a></li>
+         <li><a href="#">Safety</a></li>
+         <li><a href="#">Tech Support</a></li>
+         <li><a href="#">Customer Service</a></li>
+         <li><a href="#">About Us</a></li>
+         <li><a href="#">Contact Us</a></li>
+      </ul>
+
+
+
+      <div id="webform">
+         <fieldset id="purchase">
+            <legend>Order</legend>
+            <label id="produtLab" for="product" class="required">1) Product</label>
+            <select id="product">
+               <option value="">Select a Product</option>
+               <option value="3.5">Green/Purple Fountain: $3.50 ea.</option>
+               <option value="4.95">Silver Cone: $4.95 ea.</option>
+               <option value="6.95">Glitter Cone: $6.95 ea.</option>
+               <option value="9.95">Glittering Stars: $9.95 ea.</option>
+               <option value="19.95">Fountain Kit: $19.95 ea.</option>
+               <option value="29.95">Fountain Kit Deluxe: $29.95</option>
+               <option value="39.95">Giant Fountain: $39.95</option>
+            </select>
+            <br />
+            <label id="qtyLab" for="qty" class="required">2) Quantity</label>
+            <select id="qty">
+               <option value="">Select a Quantity</option>
+               <option value="1"> 1</option>
+               <option value="2"> 2</option>
+               <option value="3"> 3</option>
+               <option value="4"> 4</option>
+               <option value="5"> 5</option>
+               <option value="6"> 6</option>
+               <option value="7"> 7</option>
+               <option value="8"> 8</option>
+               <option value="9"> 9</option>
+               <option value="10">10</option>
+            </select>  
+            <br />
+            <label id="shippingLab" for="shipping" class="required">2) Shipping</label>
+            <select id="shipping">
+               <option value="">Select a Shipping Option</option>
+               <option value="4.95">Standard ($4.95)</option>
+               <option value="8.95">Express ($8.95)</option>
+               <option value="12.95">Next Day ($12.95)</option>
+            </select> 
+            <br />
+            <label for="total" id="totalLab">3) Total Calculated Cost</label>
+            <input id="total" type="text" size="20" readonly="readonly" />
+         </fieldset>
+
+         <fieldset id="contact">
+         <legend>Contact Information</legend>
+            <label id="fnameLab" for="fname" class="required">4) First Name</label>
+            <input id="fname" type="text" size="20" />
+            <br />
+            <label id="lnameLab" for="lname" class="required">5) Last Name</label>
+            <input id="lname" type="text" size="20" />
+            <br />
+            <label id="addressLab" for="address" class="required">6) Address</label>
+            <textarea id="address" rows="5" cols="20"></textarea>
+            <br />
+            <label id="phoneLab" for="phone" class="required">7) Phone (nnn) nnn - nnnn</label>
+            <input id="phone" type="text" size="20" />
+         </fieldset>
+
+         <fieldset id="credit">
+         <legend>Payment Information</legend>
+            <label for="ccard">8) Credit Card</label>
+            <select id="ccard">
+               <option value="ae">American Express</option>
+               <option value="dc">Diners Club</option>
+               <option value="disc">Discover</option>
+               <option value="mc">MasterCard</option>
+               <option value="visa">Visa</option>
+            </select>
+            <br />
+            <label id="cholderLab" for="cholder" class="required">9) Card Holder</label>
+            <input id="cholder" type="text" size="20" />
+            <br />
+            <label id="cnumLab" for="cnum" class="required">10) Card Number</label>
+            <input id="cnum" type="text" size="20" />
+            <br />
+            <label class="required">11) Expiration Date</label>
+            <select name="cmonth" id="cmonth">
+               <option>01</option><option>02</option><option>03</option>
+               <option>04</option><option>05</option><option>06</option>
+               <option>07</option><option>08</option><option>09</option>
+               <option>10</option><option>11</option><option>12</option>
+            </select>
+            /
+            <select name="cyear" id="cyear">
+               <option>2010</option><option>2011</option><option>2012</option>
+               <option>2013</option><option>2014</option><option>2015</option>
+            </select>
+         </fieldset> 
+
+         <input id="sbutton" type="submit" value="Submit Order" />
+      </div>
+   </div>
+   </form>
+
+</body>
+</html>

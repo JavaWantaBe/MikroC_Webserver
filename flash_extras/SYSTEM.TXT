@@ -1,0 +1,59 @@
+01:09:01 09/11/2013 - Time was successfully updated with NTP
+02:34:45 09/11/2013 - Time was successfully updated with NTP
+02:47:39 09/11/2013 - Time was successfully updated with NTP
+02:52:03 09/11/2013 - Started telnet session
+02:52:17 09/11/2013 - Ended Telnet Session
+03:00:26 09/11/2013 - Started telnet session
+03:00:39 09/11/2013 - Ended Telnet Session
+03:49:47 09/11/2013 - Started telnet session
+03:50:19 09/11/2013 - Ended Telnet Session
+05:46:24 09/11/2013 - Time was successfully updated with NTP
+06:41:56 09/11/2013 - Started telnet session
+06:42:20 09/11/2013 - Ended Telnet Session
+07:01:03 09/11/2013 - Started telnet session
+07:01:08 09/11/2013 - Ended Telnet Session
+07:11:36 09/11/2013 - Started telnet session
+07:11:45 09/11/2013 - Ended Telnet Session
+19:10:13 09/11/2013 - Time was successfully updated with NTP
+04:48:13 09/12/2013 - Started telnet session
+05:48:32 09/12/2013 - Ended Telnet Session
+05:07:37 09/12/2013 - Started telnet session
+06:08:19 09/12/2013 - Ended Telnet Session
+05:16:26 09/12/2013 - Started telnet session
+06:16:52 09/12/2013 - Ended Telnet Session
+06:12:35 09/12/2013 - Started telnet session
+07:13:05 09/12/2013 - Ended Telnet Session
+10:06:23 09/12/2013 - Started telnet session
+11:06:30 09/12/2013 - Ended Telnet Session
+11:11:47 09/12/2013 - Started telnet session
+11:11:58 09/12/2013 - Ended Telnet Session
+10:13:10 09/12/2013 - Started telnet session
+11:13:19 09/12/2013 - Ended Telnet Session
+11:20:58 09/12/2013 - Started telnet session
+11:21:15 09/12/2013 - Ended Telnet Session
+10:59:15 09/12/2013 - Started telnet session
+11:59:27 09/12/2013 - Ended Telnet Session
+12:01:48 09/12/2013 - Started telnet session
+12:01:53 09/12/2013 - Ended Telnet Session
+19:39:28 09/12/2013 - Started telnet session
+20:39:41 09/12/2013 - Ended Telnet Session
+06:32:23 09/13/2013 - Started telnet session
+07:32:34 09/13/2013 - Ended Telnet Session
+07:32:38 09/13/2013 - Started telnet session
+07:32:57 09/13/2013 - Ended Telnet Session
+09:07:23 09/13/2013 - Time was successfully updated with NTP
+09:07:44 09/13/2013 - Started telnet session
+09:08:06 09/13/2013 - Ended Telnet Session
+09:08:13 09/13/2013 - Started telnet session
+08:14:22 09/13/2013 - Started telnet session
+09:14:51 09/13/2013 - Ended Telnet Session
+08:17:55 09/13/2013 - Successfully downloaded new data
+09:20:24 09/13/2013 - Started telnet session
+09:20:35 09/13/2013 - Ended Telnet Session
+08:34:45 09/13/2013 - Successfully downloaded new data
+09:38:17 09/13/2013 - Started telnet session
+09:38:28 09/13/2013 - Ended Telnet Session
+16:36:47 09/13/2013 - Started telnet session
+17:36:52 09/13/2013 - Ended Telnet Session
+21:22:00 09/13/2013 - Started telnet session
+22:22:13 09/13/2013 - Ended Telnet Session

@@ -1,0 +1,157 @@
+[DEVICE]
+Name=ATMEGA1284P
+Clock=8000000
+[MEMORY_MODEL]
+Value=-1
+[BUILD_TYPE]
+Value=0
+[BOOT_TYPE]
+Value=1
+[ACTIVE_TAB]
+Value=web_test.c
+[USE_EEPROM]
+Value=0
+[USE_HEAP]
+Value=0
+[HEAP_SIZE]
+Value=2000
+[EEPROM_DEFINITION]
+Value=
+[FILES]
+Count=13
+File0=web_test.c
+File1=..\network\network.c
+File2=..\network\head_generator\head_generator.c
+File3=..\network\page_manager\page_manager.c
+File4=..\network\parser\line_parser.c
+File5=..\network\protocols\http_client\http_client.c
+File6=..\network\protocols\http_server\http_server.c
+File7=..\network\protocols\udp_ntp\udp_ntp.c
+File8=..\network\socket_manager\socket_manager.c
+File9=..\logger\logger.c
+File10=..\utils\alt_string.c
+File11=..\utils\lwprintf.c
+File12=..\network\protocols\telnet\telnet.c
+[BINARIES]
+Count=0
+[IMAGES]
+Count=0
+ActiveImageIndex=-1
+[OPENED_FILES]
+Count=2
+File0=..\network\network.h
+File1=web_test.c
+[EEPROM]
+Count=0
+[ACTIVE_COMMENTS_FILES]
+Count=0
+[OTHER_FILES]
+Count=0
+[SEARCH_PATH]
+Count=37
+Path0=C:\C4W\Mikroelektronika\mikroC PRO for AVR\defs\
+Path1=C:\C4W\Mikroelektronika\mikroC PRO for AVR\uses\lte64kw\
+Path2=C:\Projects\A_Pump\trunk\unit_tests\
+Path3=C:\Program Files (x86)\Mikroelektronika\mikroC PRO for AVR\defs\
+Path4=C:\Program Files (x86)\Mikroelektronika\mikroC PRO for AVR\uses\lte64kw\
+Path5=C:\Users\James\Desktop\Modular Webserver Branch\trunk\unit_tests\
+Path6=C:\Projects\A_Pump\trunk\network\
+Path7=C:\Projects\A_Pump\trunk\network\head_generator\
+Path8=C:\Projects\A_Pump\trunk\network\page_manager\
+Path9=C:\Projects\A_Pump\trunk\network\parser\
+Path10=C:\Projects\A_Pump\trunk\network\protocols\http_client\
+Path11=C:\Projects\A_Pump\trunk\network\protocols\http_server\
+Path12=C:\Projects\A_Pump\trunk\network\protocols\udp_ntp\
+Path13=C:\Projects\A_Pump\trunk\network\socket_manager\
+Path14=C:\Projects\A_Pump\trunk\logger\
+Path15=C:\Projects\A_Pump\trunk\utils\
+Path16=C:\Projects\A_Pump\trunk\globals\
+Path17=C:\C4W\Mikroelektronika\mikroC PRO for AVR\Packages\Network_Ethernet_AVR\Uses\
+Path18=C:\C4W\Mikroelektronika\mikroC PRO for AVR\Packages\FAT32 Library\Uses\
+Path19=C:\Projects\A_Pump\trunk\network\protocols\telnet\
+Path20=C:\Users\James\Desktop\Modular Webserver Branch\trunk\network\
+Path21=C:\Users\James\Desktop\Modular Webserver Branch\trunk\network\head_generator\
+Path22=C:\Users\James\Desktop\Modular Webserver Branch\trunk\network\page_manager\
+Path23=C:\Users\James\Desktop\Modular Webserver Branch\trunk\network\parser\
+Path24=C:\Users\James\Desktop\Modular Webserver Branch\trunk\network\protocols\http_client\
+Path25=C:\Users\James\Desktop\Modular Webserver Branch\trunk\network\protocols\http_server\
+Path26=C:\Users\James\Desktop\Modular Webserver Branch\trunk\network\protocols\udp_ntp\
+Path27=C:\Users\James\Desktop\Modular Webserver Branch\trunk\network\socket_manager\
+Path28=C:\Users\James\Desktop\Modular Webserver Branch\trunk\logger\
+Path29=C:\Users\James\Desktop\Modular Webserver Branch\trunk\utils\
+Path30=C:\Users\James\Desktop\Modular Webserver Branch\trunk\network\protocols\telnet\
+Path31=C:\Users\James\Desktop\Modular Webserver Branch\trunk\globals\
+Path32=C:\Program Files (x86)\Mikroelektronika\mikroC PRO for AVR\Packages\FAT32 Library\Uses\
+Path33=C:\Program Files (x86)\Mikroelektronika\mikroC PRO for AVR\Packages\Network_Ethernet_AVR\Uses\
+Path34=C:\Program Files (x86)\Mikroelektronika\mikroC PRO for AVR\Packages\time\
+Path35=C:\Users\James\Desktop\Modular Webserver Branch\trunk\libs\
+Path36=C:\Projects\A_Pump\trunk\libs\
+[HEADER_PATH]
+Count=28
+Path0=C:\Projects\A_Pump\trunk\network\
+Path1=C:\Projects\A_Pump\trunk\network\head_generator\
+Path2=C:\Projects\A_Pump\trunk\network\page_manager\
+Path3=C:\Projects\A_Pump\trunk\network\parser\
+Path4=C:\Projects\A_Pump\trunk\network\protocols\http_client\
+Path5=C:\Projects\A_Pump\trunk\network\protocols\http_server\
+Path6=C:\Projects\A_Pump\trunk\network\protocols\udp_ntp\
+Path7=C:\Projects\A_Pump\trunk\network\socket_manager\
+Path8=C:\Projects\A_Pump\trunk\logger\
+Path9=C:\Projects\A_Pump\trunk\utils\
+Path10=C:\C4W\Mikroelektronika\mikroC PRO for AVR\Packages\Network_Ethernet_AVR\Uses\
+Path11=C:\C4W\Mikroelektronika\mikroC PRO for AVR\Packages\FAT32 Library\Uses\
+Path12=C:\Projects\A_Pump\trunk\network\protocols\telnet\
+Path13=C:\Users\James\Desktop\Modular Webserver Branch\trunk\network\
+Path14=C:\Users\James\Desktop\Modular Webserver Branch\trunk\network\head_generator\
+Path15=C:\Users\James\Desktop\Modular Webserver Branch\trunk\network\page_manager\
+Path16=C:\Users\James\Desktop\Modular Webserver Branch\trunk\network\parser\
+Path17=C:\Users\James\Desktop\Modular Webserver Branch\trunk\network\protocols\http_client\
+Path18=C:\Users\James\Desktop\Modular Webserver Branch\trunk\network\protocols\http_server\
+Path19=C:\Users\James\Desktop\Modular Webserver Branch\trunk\network\protocols\udp_ntp\
+Path20=C:\Users\James\Desktop\Modular Webserver Branch\trunk\network\socket_manager\
+Path21=C:\Users\James\Desktop\Modular Webserver Branch\trunk\logger\
+Path22=C:\Users\James\Desktop\Modular Webserver Branch\trunk\utils\
+Path23=C:\Users\James\Desktop\Modular Webserver Branch\trunk\network\protocols\telnet\
+Path24=C:\Program Files (x86)\Mikroelektronika\mikroC PRO for AVR\Packages\Network_Ethernet_AVR\Uses\
+Path25=C:\Program Files (x86)\Mikroelektronika\mikroC PRO for AVR\Packages\FAT32 Library\Uses\
+Path26=C:\Users\James\Desktop\Modular Webserver Branch\trunk\libs\
+Path27=C:\Projects\A_Pump\trunk\libs\
+[HEADERS]
+Count=14
+File0=..\network\network.h
+File1=..\network\network_conf.h
+File2=..\network\head_generator\head_generator.h
+File3=..\network\page_manager\page_manager.h
+File4=..\network\parser\line_parser.h
+File5=..\network\protocols\http_client\http_client.h
+File6=..\network\protocols\http_server\http_server.h
+File7=..\network\protocols\udp_ntp\udp_ntp.h
+File8=..\network\socket_manager\socket_manager.h
+File9=..\logger\logger.h
+File10=..\utils\alt_string.h
+File11=..\utils\lwprintf.h
+File12=..\network\protocols\telnet\telnet.h
+File13=..\libs\time.h
+[PLDS]
+Count=1
+File0=..\globals\globals.pld
+[Useses]
+Count=15
+File0=Conversions
+File1=C_String
+File2=C_Stdlib
+File3=C_Type
+File4=MemManager
+File5=SPI
+File6=Time
+File7=UART
+File8=Sprintl
+File9=Net_Ethernet_28j60_lte64kW
+File10=Net_Ethernet_28j60_Defs_lte64kW
+File11=FAT32_lte
+File12=FAT32_Driver_lte
+File13=Mmc
+File14=FAT32_Defs_lte
+[EXPANDED NODES]
+Node1=Project Level Defines
+Count=1

@@ -1,0 +1,13 @@
+<ENC28J60_Ethernet>
+	<Attributes>
+		<Url></Url>
+		<Image></Image>
+		<File>enc28j60.pdf</File>
+	</Attributes>
+	<Events>
+		<OnLeftClick></OnLeftClick>
+		<OnRightClick></OnRightClick>
+		<OnDblClick>OpenFile</OnDblClick>
+		<OnMouseOver></OnMouseOver>
+	</Events>
+</ENC28J60_Ethernet>

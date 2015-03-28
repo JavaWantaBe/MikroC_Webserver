@@ -1,0 +1,13 @@
+<eeprom_datasheet>
+	<Attributes>
+		<Url></Url>
+		<Image></Image>
+		<File>21711c.pdf</File>
+	</Attributes>
+	<Events>
+		<OnLeftClick></OnLeftClick>
+		<OnRightClick></OnRightClick>
+		<OnDblClick>OpenFile</OnDblClick>
+		<OnMouseOver></OnMouseOver>
+	</Events>
+</eeprom_datasheet>

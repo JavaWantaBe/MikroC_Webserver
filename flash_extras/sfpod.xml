@@ -1,0 +1,78 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<!--
+   New Perspectives on JavaScript, 2nd Edition
+   Tutorial 12
+   Case Problem 4
+
+   The SF Control Room RSS Feed
+
+   Filename:         sfpod.xml
+   Supporting Files: 
+-->
+
+<rss version="2.0">
+
+    <channel>
+        <title>The Sci-Fi Control Room Podcast</title>
+        <description>Hugo and Nebula award-winning science fiction author Kevin Vinter
+                     talks about the world of science fiction in the podcast. Join
+                     Kevin twice-a-month for interviews, book reviews, and readings
+                     from science fiction classics.
+        </description>
+        <link>http://www.sfcontrolroom.com/podcast.html</link>
+        <language>en</language>
+
+        <item>
+            <title>Control Room #4</title>
+            <description>Kevin looks at science fiction in the digital
+                         age and the impact on online media on science
+                         fiction magazines and fanzines. Kevin will also
+                         read the first half of his new novelette,
+                         Null Gateway.
+            </description>
+            <link>http://www.sfcontrolroom.com/podcast.html#sfcr04</link>
+            <pubDate>Sun, 25 Oct 2012 18:39:14 -0800</pubDate>
+        </item>
+
+        <item>
+            <title>Control Room #3</title>
+            <description>Kevin discusses the early days of the pulps with
+                         science fiction historian, critic, and author,
+                         Fredric Ogletree. Later, Kevin reads the winning
+                         entries from the limerick contest. This month's
+                         theme was: "Global Warming Limericks".
+            </description>
+            <link>http://www.sfcontrolroom.com/podcast.html#sfcr03</link>
+            <pubDate>Sun, 11 Oct 2012 11:21:33 -0800</pubDate>
+        </item>
+
+        <item>
+            <title>Control Room #2</title>
+            <description>Kevin reads an excerpt from his new novelette, The Wages of Sin,
+                         and a science essay, I am an Emergent Phenomenom. Kevin
+                         will also review the latests novel by K.D. Wilson and the
+                         new sf movie, Blaster Force (it stinks).
+            </description>
+            <link>http://www.sfcontrolroom.com/podcast.html#sfcr02</link>
+            <pubDate>Sun, 04 Oct 2012 15:44:02 -0800</pubDate>
+        </item>
+
+        <item>
+            <title>Control Room #1</title>
+            <description>Kevin Vinter introduces a new podcast with a packed program
+                         of readings and interviews from the world of science fiction.
+                         Kevin reads an extended excerpt from his Hugo awarding-winning
+                         novel, The Long Sleep and provides backstory on the writing
+                         of this sf classic. Join us for an interview with Otto
+                         Greene, editor of Escher Magazine. Finally we'll look
+                         at the recent WorldCon in Vancouver and applaud the winners.
+            </description>
+            <link>http://www.sfcontrolroom.com/podcast.html#sfcr01</link>
+            <pubDate>Sun, 27 Sep 2012 15:11:01 -0800</pubDate>
+        </item>
+
+    </channel>
+
+</rss>
+

@@ -1,0 +1,68 @@
+[DEVICE]
+Name=ATMEGA1284P
+Clock=8000000
+[MEMORY_MODEL]
+Value=-1
+[BUILD_TYPE]
+Value=0
+[BOOT_TYPE]
+Value=1
+[ACTIVE_TAB]
+Value=..\rtc\ds1307.c
+[USE_EEPROM]
+Value=0
+[USE_HEAP]
+Value=0
+[HEAP_SIZE]
+Value=2000
+[EEPROM_DEFINITION]
+Value=
+[FILES]
+Count=2
+File0=ds1307_test.c
+File1=..\rtc\ds1307.c
+[BINARIES]
+Count=0
+[IMAGES]
+Count=0
+ActiveImageIndex=-1
+[OPENED_FILES]
+Count=2
+File0=ds1307_test.c
+File1=..\rtc\ds1307.c
+[EEPROM]
+Count=0
+[ACTIVE_COMMENTS_FILES]
+Count=0
+[OTHER_FILES]
+Count=0
+[SEARCH_PATH]
+Count=5
+Path0=C:\C4W\Mikroelektronika\mikroC PRO for AVR\defs\
+Path1=C:\C4W\Mikroelektronika\mikroC PRO for AVR\uses\lte64kw\
+Path2=C:\Projects\A_Pump\trunk\unit_tests\
+Path3=C:\Projects\A_Pump\trunk\rtc\
+Path4=C:\Projects\A_Pump\trunk\globals\
+[HEADER_PATH]
+Count=1
+Path0=C:\Projects\A_Pump\trunk\rtc\
+[HEADERS]
+Count=1
+File0=..\rtc\ds1307.h
+[PLDS]
+Count=1
+File0=..\globals\globals.pld
+[Useses]
+Count=7
+File0=TWI
+File1=UART
+File2=Sprintl
+File3=C_Type
+File4=Conversions
+File5=C_String
+File6=Time
+[EXPANDED NODES]
+Node1=Project Level Defines
+Node2=EEPROM Files
+Node3=Output Files
+Count=3

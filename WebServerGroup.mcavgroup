@@ -1,0 +1,8 @@
+[PROJECTS]
+Count=4
+Project0=SmartPump.mcpav
+Project1=unit_tests\web_test.mcpav
+Project2=unit_tests\ds1307_test.mcpav
+Project3=unit_tests\eeprom_test.mcpav
+[ActiveProject]
+Index=0
